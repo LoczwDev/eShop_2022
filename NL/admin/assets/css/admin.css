@@ -1,0 +1,52 @@
+.admin_name {
+  font-size: 20px;
+  color: #d81b60;
+}
+.container-table {
+  max-height: 400px;
+}
+.container-table table thead {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #fff;
+}
+
+/* input[type="file"] {
+  width: 100px;
+} */
+.hidden{
+  display: none;
+}
+.border-right{
+  border-right: 1px solid violet;
+}
+.check-size{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+.check-size.form-check .form-check-input {
+  margin-left: 0!important;
+
+
+}
+.check-size.form-check .form-check-input ~ input{
+  width: 90px;
+}
+ .container-table ::-webkit-scrollbar {
+  width: 8px; /* Đặt chiều rộng của thanh trượt */
+}
+
+.container-table ::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Đặt màu nền cho phần track (phần nền của thanh trượt) */
+}
+
+.container-table ::-webkit-scrollbar-thumb {
+  background-color: #888; /* Đặt màu cho phần thumb (phần thanh trượt) */
+  border-radius: 4px; /* Đặt góc bo tròn cho thumb */
+}
+
+.container-table ::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Đặt màu cho thumb khi hover (di chuột qua) */
+}
